@@ -39,6 +39,6 @@ public class RandomItem {
         Random random = new Random();
         int num = random.nextInt(0,6);
 
-        return new Item(itemNames.get(num),getRarity(),num % 3);
+        return new Item(itemNames.get(num),getRarity(),0);
     }
 }
